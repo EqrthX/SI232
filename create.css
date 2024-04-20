@@ -1,0 +1,345 @@
+/* สมัคร */
+
+* { background: #FFFFFF; }
+
+
+
+
+/* First Name */
+.FirstName{
+position: absolute;
+width: 79px;
+height: 20px;
+left: 823px;
+top: 135px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* MM/DD/YYYY */
+input[type="date"]{
+position: absolute;
+width: 330px;
+height: 60px;
+left: 823px;
+top: 372px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #D9D9D9;
+}
+
+
+/* Last Name */
+.LastName{
+position: absolute;
+width: 78px;
+height: 20px;
+left: 1235px;
+top: 135px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Career */
+.Career{
+position: absolute;
+width: 51px;
+height: 20px;
+left: 1235px;
+top: 242px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Password */
+.Password{
+position: absolute;
+width: 69px;
+height: 20px;
+left: 823px;
+top: 456px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Confirm Password */
+.Confpassword{
+position: absolute;
+width: 131px;
+height: 20px;
+left: 1235px;
+top: 456px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Rectangle 65 */
+.boxpass{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 823px;
+top: 479px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Rectangle 66 */
+.boxconfpass{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 1235px;
+top: 479px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Create Account */
+h1{
+position: absolute;
+width: 284px;
+height: 50px;
+left: 1023px;
+top: 53px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+
+
+/* Rectangle 63 */
+.boxlname{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 1235px;
+top: 158px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Rectangle 67 */
+.boxfname{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 823px;
+top: 158px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Rectangle 68 */
+.boxemail{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 823px;
+top: 265px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Rectangle 70 */
+.boxbd{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 823px;
+top: 372px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Rectangle 69 */
+.boxcareer{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 1235px;
+top: 265px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* Rectangle 71 */
+.boxcountry{
+box-sizing: border-box;
+
+position: absolute;
+width: 330px;
+height: 60px;
+left: 1235px;
+top: 372px;
+
+border: 1px solid #887E7E;
+border-radius: 5px;
+}
+
+/* E-Mail */
+.Email{
+position: absolute;
+width: 47px;
+height: 20px;
+left: 823px;
+top: 242px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Country */
+.Country{
+position: absolute;
+width: 58px;
+height: 20px;
+left: 1235px;
+top: 349px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Birthdate */
+.Birthdate{
+position: absolute;
+width: 58px;
+height: 20px;
+left: 823px;
+top: 349px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #635C5C;
+}
+
+
+/* Rectangle 63 */
+.botton{
+position: absolute;
+width: 330px;
+height: 60px;
+left: 1000px;
+top: 649px;
+
+background: #0B6EFE;
+border-radius: 5px;
+}
+
+/* Create */
+input[type="submit"]{
+position: absolute;
+width: 330px;
+height: 60px;
+left: 1126px;
+top: 664px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+
+/* pexels-orlando-allo-3658120 1 */
+img{
+position: absolute;
+width: 713px;
+height: 1024px;
+left: 0px;
+top: -95px;
+
+background: url(pexels-orlando-allo-3658120.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+}
+
+
+
