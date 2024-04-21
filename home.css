@@ -1,172 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Jersey+10&display=swap');
-
 * {
+
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+
 }
 
-/* หน้าแรก */
-.container {
-    background:#ebd3c5;
-    ;
-    position: relative;
-    width: 100%; /* ขยายความกว้างให้เต็มขนาดของหน้าเว็บ */
-    max-width: 1600px; /* จำกัดความกว้างของคอนเทนเนอร์ไว้ที่ 1600px */
-    margin: 0 auto; /* จัดคอนเทนเนอร์กลางหน้า */
+body {
+
+    background : #EDDACE
+
 }
 
-/* Rectangle 5 */
-.rectangle {
-    background: #EDDACE;
+.navbar {
+
+    background: #bb9d85; 
+    box-shadow: 0px 4px 4px 0px #00000040;
+    max-height: 100px;
+
+}
+
+.navbar ul li #icon1 {
+
     position: absolute;
-    width: 100%;
-    max-width: 1600px;
-    height: 786px;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 68px;
+    top: 14px;
+    width: 65px;
+    height: 56px;
+
 }
 
-/* web 1 */
-.web1 {
-    background: url(https://s3-alpha-sig.figma.com/img/8f81/c9b8/7acab29059abcd40d3d718c3d2504a4a?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JpulNutyfvcy6RjQkv85QWgg62RwZC9mYu0WVRFSbe8atGYuw3hboMpu4Mao48j9oPEhX02sYwXNXgG93ey2zj1hra-4VKamh8KVMya55LGNDqhVhySYljM69xJwTBFPuLaCHK6ztvoG6iV-krdhckNJa-NRJJCcIDjK-3v22XTaN3vlc1pmERKGU1bHZzn~0rjgsKMB71KBobfYx0ubxGvB6LGAwdaFOM03LIzCcF3Q-LukazJsuya3qPTH4Z9ufE~5GLobpWK9ddHolKk-DfEqrQoH5UmmJfnlybQZ4SYFevFs5xSAuIUQyD9CDZFhGlwXb3hjAzKYjSCNsqmLiw__);
+.navbar ul li input[type="text"] {
+
     position: absolute;
-    width: 1169px;
-    height: 423px;
-    left: 216px;
-    top: 230px;
-}
-
-/* ทุกชีวิตบนโลก ล้วนมีค่าเสมอ */
-.text1 {
-    position: absolute;
-    width: 449px;
-    height: 48px;
-    left: 576px;
-    top: 148px;
-    font-size: 40px;
-    line-height: 48px;
-    color: #000000;
-}
-
-/* ให้เราได้ช่วยคุณ */
-.text2 {
-    position: absolute;
-    width: 154px;
-    height: 30px;
-    left: 723px;
-    top: 711px;
-    font-size: 25px;
-    line-height: 30px;
-    color: #000;
-}
-
-/* Ellipse 1 */
-.ellipse1 {
-    position: absolute;
-    width: 213px;
-    height: 53px;
-    left: 694px;
-    top: 798px;
-    background: #A4826D;
-}
-
-/* เข้าสู่เว็บไซต์ */
-.link1 {
-    position: absolute;
-    width: 117px;
-    height: 30px;
-    left: 742px;
-    top: 810px;
-    font-size: 25px;
-    line-height: 30px;
-    text-decoration: underline;
-    color: #201270;
-}
-
-/* Rectangle 6 */
-.rectangle6 {
-    background: #E4CAB5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Vector */
-.vector {
-    background: #8B5A3F;
-    position: absolute;
-    width: 4.25%;
-    height: 87.33%;
-    top: 1.56%;
-}
-
-/* searching-bar (1) 1 */
-.searching-bar {
-    background: url();
-    border-radius: 50%;
-    position: absolute;
-    width: 238px;
-    height: 238px;
     left: 254px;
-    top: -17px;
+    top: 14px;
+    width: 154px;
+    height: 64px;
+    border-radius: 5rem;
+
 }
 
-/* หน้าแรก */
-.text3 {
-    position: absolute;
-    width: 82px;
-    height: 30px;
-    left: 739px;
-    top: 42px;
-    font-size: 25px;
-    line-height: 30px;
+.navbar ul li a {
+
+    text-decoration: none;
     color: #8B5A3F;
+
 }
 
-/* คัดกรอง */
-.text4 {
+.navbar ul li #nav-home{
+
     position: absolute;
-    width: 86px;
-    height: 30px;
-    left: 894px;
-    top: 42px;
-    font-size: 25px;
-    line-height: 30px;
-    color: #8B5A3F;
+    top: 41px;
+    left: 539px;
+
 }
 
-/* ช่วยเหลือ */
-.text5 {
+.navbar ul li #nav-fillter{
+
     position: absolute;
-    width: 92px;
-    height: 30px;
-    left: 1053px;
-    top: 42px;
-    font-size: 25px;
-    line-height: 30px;
-    color: #8B5A3F;
+    top: 41px;
+    left: 694px;
+
 }
 
-/* โพสต์ */
-.text6 {
+.navbar ul li #nav-help {
+
     position: absolute;
-    width: 55px;
-    height: 30px;
-    left: 1208px;
-    top: 42px;
-    font-size: 25px;
-    line-height: 30px;
-    color: #8B5A3F;
+    top: 41px;
+    left: 849px;
+
 }
 
-/* profile 1 */
-.profile {
-    background: url();
+.navbar ul li #nav-post {
+
     position: absolute;
-    width: 49px;
-    height: 49px;
-    left: 1374px;
+    top: 41px;
+    left: 1004px; 
+
+}
+
+.navbar ul li .icon-people {
+
+    position: absolute;
     top: 24px;
+    left: 1174px;
+
+}
+
+.navbar ul li .flagT {
+
+    position: absolute;
+    top: 24px;
+    left: 1244px;
+
+}
+
+.navbar ul li .flagE {
+
+    position: absolute;
+    top: 24px;
+    left: 1300px;
+
+}
+
+h1 {
+
+    position: relative;
+    top: 25px;
+
+}
+
+.box-pic {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+h3 {
+
+    margin-top: 10px;
+
+}
+
+
+
+button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #A4826D;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10rem;
+
+}
+
+button a {
+
+    color: white;
+    text-decoration: underline;
+
 }
