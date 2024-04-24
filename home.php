@@ -12,7 +12,7 @@
 
 <!-- เริ่มต้นโค้ด HTML ของคุณที่นี่ -->
 
-  <?php require"navbar.php"; ?>
+ <?php require"navbar.php"; ?>
 
   <h1 style="text-align: center;">ทุกชีวิตบนโลก ล้วนมีค่าเสมอ</h1>
 
