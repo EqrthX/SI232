@@ -4,7 +4,7 @@
 
       <li><img src="icon.png" alt="" id="icon1"></li>
       <li><input type="text"></li>
-      <li><a href="" id="nav-home">หน้าแรก</a></li>
+      <li><a href="home.php" id="nav-home">หน้าแรก</a></li>
       <li><a href="" id="nav-fillter">คัดกรอก</a></li>
       <li><a href="" id="nav-help">ช่วยเหลือ</a></li>
       <li><a href="" id="nav-post">โพสต์</a></li>

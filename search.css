@@ -105,21 +105,7 @@ body {
 }
 /* =================ส่วน bar ================= */
 /* =================ส่วนกลางหน้ากระดาษ============== */
-h1 {
-    position: absolute;
-    width: 56px;
-    height: 36px;
-    left: 750px;
-    top: 200px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 35px;
-    line-height: 36px;
-    
-    color: #000000;
-}
+
 /* .box-pic {
 
     width: 174px;
@@ -162,120 +148,92 @@ button {
     line-height: 39px;
 
 }
-/* .brown {
-    position: absolute; 
-    width: 50px; 
-    height: 30px; 
-    left: 210px; 
-    top: 525px;
+
+/* main content dog */
+
+.container .box-line {
+
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
+}
 
-    color: #FFFFFF; */
-.line4{
-position: absolute; 
-width: 692px; 
-height: 0px; 
-left: 924px; 
-top: 582px; 
-border: 3px 
-solid #A65E40;
+.container .box-text {
+
+    position: relative;
+    top: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
 }
-.line3{
-    position: absolute; 
-    width: 647px; 
-    height: 0px; 
-    left: -7px; 
-    top: 582px; 
-    border: 3px 
-    solid #A65E40;
+
+.container .box-text .box {
+
+    display: block;
+    text-align: center;
+
 }
+
+.container .box-text .box .box-a {
+
+    background: #A65E40;
+    padding: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: 500ms;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.container .box-text .box .box-a:where(:hover, :focus-visible) {
+
+    color: #bb9d85;
+
+}
+
+.container .box-text .box .box-image {
+
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 5px;
+    height: 200px;
+    border-radius: 1rem;
+
+}
+
+.dog {
+
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+
+
 .line2{
-    position: absolute; 
-    width: 692px; 
+    width: 600px; 
     height: 0px; 
-    left: 937px; 
-    top: 217px; 
     border: 3px 
     solid #A65E40;
 }
 .line1{
-    position: absolute;
-    width: 647px;
+
+    width: 600px;
     height: 0px;
-    left: 0px;
-    top: 217px;
     border: 3px 
     solid #A65E40;
+
 }
-.box1t{
-    position: absolute; 
-    width: 174px; 
-    height: 38px; 
-    left: 150px; 
-    top: 520px; 
-    background: #925946;
-}
-.box2t{
-    position: absolute; 
-    width: 174px; 
-    height: 38px; 
-    left: 450px; 
-    top: 520px; 
-    background: #925946;
-}
-.box4t{
-    position: absolute; 
-    width: 174px;
-    height: 38px; 
-    left: 1200px; 
-    top: 520px; 
-    background: #925946;
-}
-.box3t{
-    position: absolute;
-    width: 174px; 
-    height: 38px; 
-    left: 915px; 
-    top: 520px; 
-    background: #925946;
-}
-.box1f{
-    position: absolute; 
-    width: 174px; 
-    height: 38px; 
-    left: 150px; 
-    top: 842px; 
-    background: #925946;
-}
-.box2f{
-    position: absolute; 
-    width: 174px; 
-    height: 38px; 
-    left: 450px; 
-    top: 842px; 
-    background: #925946;
-}
-.box3f{
-    position: absolute; 
-    width: 174px; 
-    height: 38px; 
-    left: 915px; 
-    top: 842px; 
-    background: #925946;
-}
-.box4f{
-    position: absolute; 
-    width: 174px; 
-    height: 38px; 
-    left: 1200px; 
-    top: 842px; 
-    background: #925946;
+
+
+@media (max-width: 768px) {
+    .container .box-text {
+        grid-template-columns: repeat(2, 1fr); /* 2 คอลัมน์บนหน้าจอขนาดเล็ก */
+    }
 }
