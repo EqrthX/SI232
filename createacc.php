@@ -11,38 +11,37 @@
     <link rel="stylesheet" href="create.css">
    </head> 
 
-
 <body>
 <h1> Createa&nbsp;Account</h2>
 <img src="dogregis.jpg" alt="">
 <form action="checkRegister.php" method="post">
 
 <label for="" class="FirstName">FirstName</label>
-<input type="text"class="boxfname" name="" id="">
+<input type="text"class="boxfname" name="FirstName" id="">
 
 <label for=""class="LastName">LastName</label>
-<input type="text"class="boxlname" name="" id="">
+<input type="text"class="boxlname" name="LastName" id="">
 
 <label for=""class="Email">Email</label>
-<input type="text"class="boxemail" name="" id="">
+<input type="text"class="boxemail" name="Email" id="">
 
 <label for=""class="Career">Career</label>
-<input type="text"class="boxcareer" name="" id="">
+<input type="text"class="boxcareer" name="Career" id="">
 
 <label for=""class="Country">Country</label>
-<input type="text"class="boxcountry" name="" id="">
+<input type="text"class="boxcountry" name="Country" id="">
 
 <label for=""class="Birthdate">Birthdate</label>
-<input type="date"class="boxbd" name="" id="">
+<input type="date"class="boxbd" name="Birthdate" id="">
 
 <label for="password"class="Password">Password</label>
-<input type="password"class="boxpass" id="password" name="password"  required><br>
+<input type="password"class="boxpass" id="password" name="Password"  required><br>
 
  <label for="password"class="Confpassword">Confpassword</label>
-<input type="password"class="boxconfpass" id="password" name="confpassword"  required><br>
+<input type="password"class="boxconfpass" id="" name="Confpassword"  required><br>
 
 
-<input type="submit"class="botton" id="password" name="confpassword"  required><br>
+<input type="submit"class="botton" id="" name=""  required><br>
    
   
 
