@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+
+.navbar {
+
+    background: #bb9d85; 
+    box-shadow: 0px 4px 4px 0px #00000040;
+    max-height: 100px;
+
+}
+
+.navbar ul li #icon1 {
+
+    position: absolute;
+    left: 68px;
+    top: 14px;
+    width: 65px;
+    height: 56px;
+
+}
+
+.navbar ul li input[type="text"] {
+
+    position: absolute;
+    left: 254px;
+    top: 14px;
+    width: 154px;
+    height: 64px;
+    border-radius: 5rem;
+
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    color: #8B5A3F;
+
+}
+
+.navbar ul li #nav-home{
+
+    position: absolute;
+    top: 41px;
+    left: 539px;
+
+}
+
+.navbar ul li #nav-fillter{
+
+    position: absolute;
+    top: 41px;
+    left: 694px;
+
+}
+
+.navbar ul li #nav-help {
+
+    position: absolute;
+    top: 41px;
+    left: 849px;
+
+}
+
+.navbar ul li #nav-post {
+
+    position: absolute;
+    top: 41px;
+    left: 1004px; 
+
+}
+
+.navbar ul li .icon-people {
+
+    position: absolute;
+    top: 24px;
+    left: 1174px;
+
+}
+
+.navbar ul li .flagT {
+
+    position: absolute;
+    top: 24px;
+    left: 1244px;
+
+}
+
+.navbar ul li .flagE {
+
+    position: absolute;
+    top: 24px;
+    left: 1300px;
+
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.all{
+    width: 2100px;
+    height: 100px;
+}
+.all .all2 form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+.rq{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: lightblue;
+    font-size: 25px;
+    margin: 28rem 1540px;
+}
+.petimg button[type="submit"]{
+    border-radius: 50px;
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    margin-left: auto;    
+    margin-right: auto; 
+    justify-content: center;   
+}
+.text-pet h1{
+    margin-bottom: 35px;
+}
+.text-pet{
+    position: relative;
+    top: 20px;
+}
+
+/*  */
