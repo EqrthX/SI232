@@ -10,7 +10,7 @@
 <?php require"navbar.php"; ?>
   <h1>ข้อมูลสัตว์เลี้ยง</h1>
   
-  <form id=""class ="imgpet" enctype="multipart/form-data">
+  <form action="checkpost.php" method="post" class ="imgpet" enctype="multipart/form-data">
     <label for="imgpet">เลือกรูปภาพสัตว์เลี้ยง:</label>
     <input type="file" id="imgpet" name="petImage" accept="image/*"><br><br>
     
