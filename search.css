@@ -129,8 +129,9 @@ h2 {
     font-size: 35px;
     line-height: 36px;
 
-color: #000000;
+    color: #000000;
 }
+
 button {
 
     display: flex;
@@ -228,6 +229,71 @@ button {
     height: 0px;
     border: 3px 
     solid #A65E40;
+
+}
+
+.cat {
+
+    position: relative;
+    text-align: center;
+    top: 150px;
+
+}
+
+.container2 .box-line {
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 130px;
+
+}
+
+.container2 .box-text {
+
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.container2 .box-text .box {
+
+    display: block;
+    text-align: center;
+
+}
+
+.container2 .box-text .box .box-a {
+
+    background: #A65E40;
+    padding: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: 500ms;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.container2 .box-text .box .box-a:where(:hover, :focus-visible) {
+
+    color: #bb9d85;
+
+}
+
+.container2 .box-text .box .box-image {
+
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 5px;
+    height: 200px;
+    border-radius: 1rem;
 
 }
 

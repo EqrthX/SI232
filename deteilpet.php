@@ -23,7 +23,7 @@
       background: #E4CAB5;
       box-shadow: 0px 4px 4px 0px #00000040;
       height: 100px; */
-  }
+    }
   
   /* .navbar ul {
       display: flex;
