@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <Style>
+      body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.navbar .logo img {
+    height: 70px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 70px;
+    position: relative;
+    right: 750px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 250px;
+}
+
+.nav-links li a:hover {
+    color: #ccc;
+}
+
+.search-box {
+    position: relative;
+    left: -270px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 21px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.search-box button {
+    padding: 21px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    right: 380px;
+}
+
+.search-box button:hover {
+    background-color: #bbb;
+}
+    </Style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://cdn.discordapp.com/attachments/1207678574362886144/1235944504691920926/image.png?ex=66363684&is=6634e504&hm=7297168b08cb442f10300d27a1f79fb4d51448b84532698308ef4f8343397b4f&" alt="Logo">
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="ค้นหา...">
+            <button type="submit">ค้นหา</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">คัดกรอง</a></li>
+            <li><a href="#">ช่วยเหลือ</a></li>
+            <li><a href="#">โพสต์</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
