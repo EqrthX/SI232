@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>search</title>
-    <link rel="stylesheet" href="test.css">
-   
+    <link rel="stylesheet" href="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -17,7 +16,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    background: #bb9d85;
+    background: #E4CAB5;
     box-shadow: 0px 4px 4px 0px #00000040;
     height: 100px;
 }
@@ -180,82 +179,82 @@
             </div>
         </div>
         <div class="col-8 col-md-10 col-xl-10 px-sm-2 px-0" style="background: #EDDACE">
-            <div class="px-4 py-5 my-5 text-center">
+            <div class="text-center">
                 <h1 class="display-5 fw-bold">หมา</h1>
                     <div class="container">
                         <div class="row">
-                            <div class="col-auto">
+                            <div class="col-3">
                                 <div class="card" style="width: 18rem; background: #bb9d85">
                                         <!-- ชิวาวา -->
                                     <img src="https://fashion.decorexpro.com/images/article/orig/2019/05/ves-chihuahua-po-mesyacam.jpeg" class="card-img-top" height="200" alt="...">
                                     <div class="card-body">
-                                      <a href="#" class="fs-5 btn #EDDACE">ซูชิ</a>
+                                      <a href="#" class="fs-5 btn">ซูชิ</a>
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-3">
                                 <div class="card" style="width: 18rem; background: #bb9d85">
                                     <!-- บีเกิ้ล -->
                                     <img src="https://media.istockphoto.com/id/1204994960/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%9A%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B9%89%E0%B8%A5%E0%B8%AA%E0%B8%B8%E0%B8%99%E0%B8%B1%E0%B8%82%E0%B8%95%E0%B8%B2%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88.jpg?s=170667a&w=0&k=20&c=HsuBnzpgSbmurGHIwL_F0ZfHa5-hVtQi4Q9P5ztdtWU=" class="card-img-top" height="200" alt="...">
                                     <div class="card-body">
-                                      <a href="#" class="fs-5 btn #EDDACE">บราว</a>
+                                      <a href="#" class="fs-5 btn">เชล</a>
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-3">
                             <!-- บูลด็อก -->
                                 <div class="card" style="width: 18rem; background: #bb9d85">
-                                    <img src="https://i.pinimg.com/736x/22/5c/cd/225ccd9ee5e66a980bf302fdbc1aada1.jpg" class="card-img-top"  height="200" alt="..." >
+                                    <img src="https://i.pinimg.com/736x/22/5c/cd/225ccd9ee5e66a980bf302fdbc1aada1.jpg" class="card-img-top" height="200" alt="..." >
                                     <div class="card-body">
-                                      <a href="#" class="fs-5 btn #EDDACE">บราว</a>
+                                      <a href="#" class="fs-5 btn">ดอท</a>
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-auto mt-4">
+                            <div class="col-3 ">
                             <!-- ปอมเมอเรเนียน -->
                                 <div class="card" style="width: 18rem; background: #bb9d85">
                                     <img src="https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-pomeranian-dog-peeping-out-of-the-leaves-image_2552633.jpg" class="card-img-top" height="200" alt="...">
                                     <div class="card-body">
-                                      <a href="#" class="fs-5 btn #EDDACE" >บราว</a>
+                                      <a href="#" class="fs-5 btn" >จูดี้</a>
                                     </div>
                                   </div>
                             </div>
                         </div>
                     </div>
             </div>
-            <div class="px-4 py-5 my-5 text-center">
+            <div class="text-center mt-2">
                 <h1 class="display-5 fw-bold">แมว</h1>
                 <div class="container">
                     <div class="row">
-                        <div class="col-auto">
+                        <div class="col-3">
                             <div class="card" style="width: 18rem; background: #bb9d85">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0IF2k7jjD3OwjwMzr0bRQHJ_eQJpsBJBaqdvWQf8Pw&s" class="card-img-top" height="200" alt="...">
+                                <img src="https://s359.kapook.com/pagebuilder/c232e32d-b54b-448c-ac37-0e37c47d6eb8.jpg" class="card-img-top" height="200" alt="...">
                                 <div class="card-body">
-                                  <a href="#" class="fs-5 btn #EDDACE">ไทเกอร์</a>
+                                  <a href="#" class="fs-5 btn">ข้าว</a>
                                 </div>
                               </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-3">
                             <div class="card" style="width: 18rem; background: #bb9d85">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0IF2k7jjD3OwjwMzr0bRQHJ_eQJpsBJBaqdvWQf8Pw&s" class="card-img-top" height="200" alt="...">
+                                <img src="https://www.cathousecattery.com/cathousenew/3.JPG" class="card-img-top" height="200" alt="...">
                                 <div class="card-body">
-                                  <a href="#" class="fs-5 btn #EDDACE">ไทเกอร์</a>
+                                  <a href="#" class="fs-5 btn">ไทเกอร์</a>
                                 </div>
                               </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-3">
                             <div class="card" style="width: 18rem; background: #bb9d85">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0IF2k7jjD3OwjwMzr0bRQHJ_eQJpsBJBaqdvWQf8Pw&s" class="card-img-top" height="200" alt="...">
+                                <img src="https://media.istockphoto.com/id/531047167/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%AA%E0%B8%9F%E0%B8%B4%E0%B8%87%E0%B8%8B%E0%B9%8C%E0%B8%9A%E0%B8%99%E0%B8%82%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B8%95%E0%B8%B2%E0%B8%A5.jpg?s=612x612&w=0&k=20&c=fiAxnic-z8xAKVDVfRzMk7OU9_Emso2Oedy8he1nEfM=" class="card-img-top" height="200" alt="...">
                                 <div class="card-body">
-                                  <a href="#" class="fs-5 btn #EDDACE">ไทเกอร์</a>
+                                  <a href="#" class="fs-5 btn">ชิก</a>
                                 </div>
                               </div>
                         </div>
-                        <div class="col-auto mt-3">
+                        <div class="col-3">
                             <div class="card" style="width: 18rem; background: #bb9d85">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0IF2k7jjD3OwjwMzr0bRQHJ_eQJpsBJBaqdvWQf8Pw&s" class="card-img-top" height="200" alt="...">
+                                <img src="https://www.purina.co.th/sites/default/files/styles/ttt_image_510/public/2021-01/Persian%20Long%20Hair.1.jpg?itok=vxUPA23O" class="card-img-top" height="200" alt="...">
                                 <div class="card-body">
-                                  <a href="#" class="fs-5 btn #EDDACE">ไทเกอร์</a>
+                                  <a href="#" class="fs-5 btn">อ้วน</a>
                                 </div>
                               </div>
                         </div>

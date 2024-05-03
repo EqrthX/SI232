@@ -117,7 +117,7 @@
                             </div>
                             <div class="col-8">
                                 <div class="d-grid gap-2 col-6 mx-auto">
-                                    <button class="btn btn-warning" type="button">สนใจ</button>
+                                    <button class="btn btn-danger" type="button">ลบโพสต์</button>
                                     </div>
                             </div>
                     </div>    
