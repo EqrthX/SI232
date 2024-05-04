@@ -4,75 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
-    <Style>
-      body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
-.navbar {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 80px;
-}
+        .navbar {
+            background-color: #E4CAB5;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 80px;
+        }
 
-.navbar .logo img {
-    height: 70px;
-}
+        .navbar .logo img {
+            height: 70px;
+        }
 
-.nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
 
-.nav-links li {
-    margin-right: 70px;
-    position: relative;
-    right: 750px;
-}
+        .nav-links li {
+            margin-right: 70px;
+        }
 
-.nav-links li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    position: relative;
-    left: 250px;
-}
+        .nav-links li a {
+            text-decoration: none;
+            color: #8B5A3F;
+            font-size: 20px;
+        }
 
-.nav-links li a:hover {
-    color: #ccc;
-}
+        .nav-links li a:hover {
+            color: #000000;
+        }
 
-.search-box {
-    position: relative;
-    left: -270px;
-    display: flex;
-    align-items: center;
-}
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
 
-.search-box input[type="text"] {
-    padding: 21px;
-    border-radius: 5px 0 0 5px;
-    border: none;
-}
+        .search-box input[type="text"] {
+            padding: 21px;
+            border-radius: 5px 0 0 5px;
+            border: none;
+        }
 
-.search-box button {
-    padding: 21px;
-    background-color: #ddd;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    right: 380px;
-}
+        .search-box button {
+            padding: 21px;
+            background-color: #ddd;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
 
-.search-box button:hover {
-    background-color: #bbb;
-}
-    </Style>
+        .search-box button:hover {
+            background-color: #bbb;
+        }
+
+        .user-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .user-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .icon img {
+            width: 60px;
+            height: auto;
+            margin: 0 25px;
+        }
+
+        .textlang {
+            position: relative;
+            top: 33px;
+            left: -6px;
+        }
+
+        .textlang label {
+            display: inline-block;
+            margin-left: 5rem;
+        }
+
+        /* ปรับตำแหน่งของรูปธง */
+        .icon {
+            margin-right: -400px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -89,7 +119,17 @@
             <li><a href="#">ช่วยเหลือ</a></li>
             <li><a href="#">โพสต์</a></li>
         </ul>
+        <div class="user-icon">
+            <a href=""><img src="onana.jpg" alt="User Icon"></a>
+        </div>
+        <div class="icon">
+            <a href=""><img src="thailand.png" alt=""></a>
+            <a href=""><img src="england.png" alt=""></a>
+        </div>
+        <div class="textlang">
+            <label for="">TH</label>
+            <label for="">ENG</label>
+        </div>
     </nav>
 </body>
 </html>
-
