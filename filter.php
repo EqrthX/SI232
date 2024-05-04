@@ -6,79 +6,132 @@
     <title>search</title>
     <link rel="stylesheet" href="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #EDDACE;
+        }
+
+        .navbar {
+            background-color: #E4CAB5;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 80px;
+        }
+
+        .navbar .logo img {
+            height: 70px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 70px;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #8B5A3F;
+            font-size: 20px;
+        }
+
+        .nav-links li a:hover {
+            color: #000000;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input[type="text"] {
+            padding: 21px;
+            border-radius: 5px 0 0 5px;
+            border: none;
+        }
+
+        .search-box button {
+            padding: 21px;
+            background-color: #ddd;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background-color: #bbb;
+        }
+
+        .user-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .user-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .icon img {
+            width: 60px;
+            height: auto;
+            margin: 0 25px;
+        }
+
+        .textlang {
+            position: relative;
+            top: 33px;
+            left: -6px;
+        }
+
+        .textlang label {
+            display: inline-block;
+            margin-left: 5rem;
+        }
+        .icon {
+            margin-right: -400px;
+        }   
+      </style>
 </head>
 <body>
-    <style>
-      
-    /* ใช้เทคนิค Flexbox ในการจัดหมวดหมู่ Navbar ให้เหมาะสม */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    background: #E4CAB5;
-    box-shadow: 0px 4px 4px 0px #00000040;
-    height: 100px;
-}
-
-.navbar ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    position: relative;
-}
-
-.navbar ul li input[type="text"] {
-    width: 154px;
-    height: 40px;
-    border-radius: 20px;
-    padding: 0 10px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #8B5A3F;
-    margin: 0 15px;
-}
-
-.navbar ul li img {
-    width: 49px;
-    height: 49px;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar ul li input[type="text"] {
-        width: calc(100% - 20px); /* Full width minus padding */
-        margin-bottom: 10px;
-    }
-
-    .navbar ul li a,
-    .navbar ul li img {
-        margin-bottom: 10px;
-    }
-}
-
-
-    </style>
-        <?php include_once('navbar.php') ?>
-        
+<nav class="navbar">
+        <div class="logo">
+            <img src="https://media.discordapp.net/attachments/1207678574362886144/1235944504691920926/image.png?ex=66378804&is=66363684&hm=8bbee13883114ec078015f584444769202ae42be9290cd8d3ab3273a8572833c&=&format=webp&quality=lossless" alt="Logo">
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="ค้นหา...">
+            <button type="submit">ค้นหา</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">คัดกรอง</a></li>
+            <li><a href="#">ช่วยเหลือ</a></li>
+            <li><a href="#">โพสต์</a></li>
+        </ul>
+        <div class="user-icon">
+            <a href=""><img src="onana.jpg" alt="User Icon"></a>
+        </div>
+        <div class="icon">
+            <a href=""><img src="thailand.png" alt=""></a>
+            <a href=""><img src="england.png" alt=""></a>
+        </div>
+        <div class="textlang">
+            <label for="">TH</label>
+            <label for="">ENG</label>
+        </div>
+    </nav>
         
 <!-- เขียนฟอร์ม -->
 <div class="container-fluid">
