@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Testpost.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #E4CAB5;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 80px;
+        }
+
+        .navbar .logo img {
+            height: 70px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 70px;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #8B5A3F;
+            font-size: 20px;
+        }
+
+        .nav-links li a:hover {
+            color: #000000;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input[type="text"] {
+            padding: 21px;
+            border-radius: 5px 0 0 5px;
+            border: none;
+        }
+
+        .search-box button {
+            padding: 21px;
+            background-color: #ddd;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background-color: #bbb;
+        }
+
+        .user-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .user-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .icon img {
+            width: 60px;
+            height: auto;
+            margin: 0 25px;
+        }
+
+        .textlang {
+            position: relative;
+            top: 33px;
+            left: -6px;
+        }
+
+        .textlang label {
+            display: inline-block;
+            margin-left: 5rem;
+        }
+
+        /* ปรับตำแหน่งของรูปธง */
+        .icon {
+            margin-right: -400px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://cdn.discordapp.com/attachments/1207678574362886144/1235944504691920926/image.png?ex=66363684&is=6634e504&hm=7297168b08cb442f10300d27a1f79fb4d51448b84532698308ef4f8343397b4f&" alt="Logo">
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="ค้นหา...">
+            <button type="submit">ค้นหา</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">คัดกรอง</a></li>
+            <li><a href="#">ช่วยเหลือ</a></li>
+            <li><a href="#">โพสต์</a></li>
+        </ul>
+        <div class="user-icon">
+            <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Andr%C3%A9_Onana.jpg/800px-Andr%C3%A9_Onana.jpg" alt="User Icon"></a>
+        </div>
+        <div class="icon">
+            <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/640px-Flag_of_Thailand.svg.png" alt=""></a>
+            <a href=""><img src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg" alt=""></a>
+        </div>
+        <div class="textlang">
+            <label for="">TH</label>
+            <label for="">ENG</label>
+        </div>
+    </nav>
+    <div class = all> <div class = all2>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div class = petimg>
+                <h1 style="text-align: center; font-size: 35px; padding: 30px;" >แนบรูปภาพ</h1>
+                <label for="file-upload" style="cursor: pointer;">
+                  <img src="https://www.customwallpaper.net.au/wp-content/themes/customwallpaper/images/uploadyourown.png" alt="Click to upload" width="400" height="400">
+                </label>
+                <input id="file-upload" type="file" name="image" style="display: none;">
+                <br><br>
+                <button type="submit">โพสต์</button>
+            </div>
+            <div class = text-pet>
+                <h1 style="text-align: center; font-size: 30px;">ข้อมูลสัตว์เลี้ยง</h1>
+                <label for="petname">ชื่อสัตว์เลี้ยง</label>
+                <input type="text" placeholder="กรอกชื่อสัตว์ของคุณ"> <!--placeholder คือ ข้อความใสๆ-->
+                <br><br>
+                <label for="Gender">เลือกเพศ :</label>
+                <input type="radio" name="Gender" value="ผู้" checked> ผู้
+                <input type="radio" name="Gender" value="เมีย" > เมีย
+                <br><br>
+                <label for="colorpet">สี</label>
+                <input type="text" placeholder="กรอกสีสัตว์">
+                <br><br>
+                <label for="gene">สายพันธุ์ :</label>
+                <select id="petBreed" name="petBreed" required>
+                    <option value=""></option>
+                    <option value="Chihuahua">ชิวาวา</option>
+                    <option value="Beagle">บีเกิ้ล</option>
+                    <option value="Bulldog">บูลด็อก</option>
+                    <option value="Pomeranian">ปอมเมอเรเนียน</option>
+                    <option value="Siberianhusky ">ไซบีเรียนฮัสกี</option>
+                    </select><br><br>
+                <label for="vacpet">วัคซีน</label>
+                <input type="radio" name="vacpet" value="เคยได้รับ" checked>เคยได้รับ
+                <input type="radio" name="vacpet" value="ไม่เคยได้รับ" > ไม่เคยได้รับ
+                <br><br>
+                <label for="typepet">ประเภทสัตว์</label>
+                <input type="radio" name="typepet" value="สุนัข" checked>สุนัข
+                <input type="radio" name="typepet" value="แมว" > แมว
+                <br><br>
+                <label for="freeform">ข้อมูลสัตว์:</label><br><br>
+                <textarea id="freeform" name="freeform" rows="8" cols="50">
+                    กรอกข้อมูลสัตว์ของคุณ...
+                </textarea>
+                <br><br>
+            </div>
+        </form>
+    </div>
+</div>
+        <div class ="rq">
+            <p>คำขออนุมัติ</p>
+        </div>
+</body>
+</html>
