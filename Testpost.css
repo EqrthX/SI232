@@ -4,7 +4,7 @@ body{
 
 h3{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .all{
     width: 2100px;
@@ -15,14 +15,6 @@ h3{
     justify-content: space-evenly;
     align-items: center;
     font-size: 25px;
-}
-.rq{
-    display: flex;
-    width: 120px;
-    height: 40px;
-    background-color: lightblue;
-    font-size: 25px;
-    margin: 28rem 1540px;
 }
 .petimg button[type="submit"]{
     border-radius: 50px;
@@ -39,4 +31,44 @@ h3{
 .text-pet{
     position: relative;
     top: 20px;
+}
+.post-button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;    
+    cursor: pointer; /* เปลี่ยนเป็นรูปปุ่มเมื่อเมาส์ชี้ */
+    border-radius: 10px; /* ทำขอบปุ่มเป็นรูปวงกลม */
+    transition-duration: 0.4s; /* ความเร็วในการเปลี่ยนแปลงของปุ่ม */
+}
+
+.post-button:hover {
+    background-color: #079213d5; /* สีพื้นหลังเมื่อโฮเวอร์ */
+}
+#freeform {
+    width: 300px; 
+    height: 150px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; /* กำหนดเส้นขอบ */
+    resize: none; 
+}
+.rq{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 120px;
+    height: 40px;
+    background-color: lightblue;
+    font-size: 25px;
+    margin-top: 50px; 
+    margin-left: auto; 
+    margin-right: 10px; 
+    margin-top: 650px;
 }
